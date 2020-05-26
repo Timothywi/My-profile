@@ -1,0 +1,84 @@
+/* Colors and fonts */
+
+ body{
+  background: rgb(0 , 0, 128);
+  color: rgb(173, 216, 230);
+  font-family: Arial;
+  font-size: 18px;
+ }
+ 
+h1, h2{
+ font-family: Roboto;
+}
+
+ h1{
+  color: rgb(192, 192, 192);
+  font-size: 50px;
+  font-weight: 900px;
+ }
+
+ h2{
+  color: rgb(220, 220, 220);
+  font-size: 32px;
+  font-weight: lighter;
+  font-weight: 500px;
+ }
+ p{
+  font-family: Roboto;
+  font-size: 18px;
+  color: rgb(173, 216, 230);
+ }
+
+/* Custom design with class */
+
+ .container{
+  width: 700px;
+  margin: 40px auto;
+ }
+
+ @media(max-width: 760px){
+   .container{
+   	width: 600px;
+   }
+ }
+ @media(max-width: 500px){
+  .container{
+  	width: 400px;
+  }
+ }
+
+ .card-steelblue {
+  background-color: steelblue;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(47, 79, 79);
+  border-radius: 4px;
+  margin: 20px;
+  text-align: center;
+ }
+ .img-circle{
+   border-radius: 50%;
+ }
+ .list-inline{
+  list-style: none;
+  padding-left: 0px;
+ }
+ .list-inline li{
+  display: inline;
+  padding: 10px;
+ }
+ #instroduction p{
+  margin: 40px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
